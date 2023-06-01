@@ -1,0 +1,42 @@
+.my_bookings_container {
+    text-align: center;
+  }
+  
+  .my_bookings_input_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+
+  .my_bookings_heading{
+    color: var(--heading);
+  }
+  
+  .my_bookings_input_container_input {
+    flex: 1;
+    border: none;
+    text-align: center;
+    max-width: 200px; /* Reduce the width of input elements */
+    margin-right: 10px;
+    padding: 10px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px;
+  }
+
+  .my_bookings_input_container_input:focus{
+    outline: none;
+  }
+  
+  .my_bookings_input_container_button {
+    padding: 10px;
+    background-color: #272558;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px;
+  }
+  
+  .my-bookings-input-container button:hover {
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  }
+  

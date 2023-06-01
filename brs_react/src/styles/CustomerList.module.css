@@ -1,0 +1,59 @@
+.customerListContainer {
+    padding: 20px;
+  }
+  
+  .customerList {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .customerListItem {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #f5f5f5;
+    border-radius: 4px;
+  }
+  
+  .customerId {
+    flex: 0 0 50px;
+  }
+  
+  .customerDetails {
+    flex: 1;
+    margin-left: 10px;
+  }
+  
+  .customerActions {
+    flex: 0 0 100px;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .editButton {
+    margin-right: 10px;
+    color: #007bff;
+    cursor: pointer;
+  }
+  
+  .deleteButton {
+    color: #dc3545;
+    cursor: pointer;
+  }
+  
+  .searchButton {
+    margin-right: 10px;
+    color: #28a745;
+    cursor: pointer;
+  }
+  
+  .addButton {
+    color: #007bff;
+    cursor: pointer;
+  }
+  
+  .customerName {
+    margin-right: 10px; /* Add margin between name and phone */
+  }

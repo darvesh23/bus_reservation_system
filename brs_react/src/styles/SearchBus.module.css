@@ -1,0 +1,80 @@
+.search_bus {
+    padding-top: 1rem;
+    background-image: linear-gradient(to bottom, var(--primary) 50%, var(--white) 50%);
+    padding: 2rem;
+    color: #f9ffff;
+  }
+  
+  
+  .search_bus__form {
+    display: flex;
+    align-items: center;
+    /* gap: 1rem; */
+    width: 50%;
+    margin: 0 auto;
+  }
+  
+  .form_input {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    background-color: white;
+    flex: 1;
+    padding: 0 0.5rem;
+    border: none;
+    height: 2.5rem;
+    width: 4rem;
+    font-size: 1rem;
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.1);
+    
+  }
+  .search_bus__input{
+    border: none;
+  }
+
+  .search_bus__input:focus{
+    outline: none;
+    background-color: transparent;
+}
+  
+  .search_bus__input::placeholder {
+    color: black;
+  }
+  
+  .search_bus__input_date{
+    position: relative;
+  }
+
+  .search_bus__input_date::-webkit-calendar-picker-indicator {
+    background: transparent;
+    bottom: 0;
+    color: transparent;
+    cursor: pointer;
+    height: auto;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: auto;
+}
+
+  
+  .search_bus__button {
+    background-color: var(--button);
+    color: #f9ffff;
+    height: 2.5rem;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 0;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease-in-out; /* Add transition effect for smooth hover */
+
+  }
+
+  .search_bus__button:hover{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; /* Apply box shadow on hover */
+  }
+  

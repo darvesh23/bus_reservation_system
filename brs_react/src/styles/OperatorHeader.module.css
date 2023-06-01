@@ -1,0 +1,32 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    padding: 0 32px;
+    background-color: var(--primary);
+    color: #fff;
+  }
+  
+  .left {
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+  
+  .right {
+    font-size: 1.2rem;
+  }
+
+  .button{
+    border: 1px solid var(--primary);
+    background-color: var(--white);
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 5px 10px;
+  }
+
+  .button:hover{
+    background-color: var(--button);
+    color: var(--white);
+  }
+  

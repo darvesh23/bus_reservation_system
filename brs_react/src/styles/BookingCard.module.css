@@ -1,0 +1,67 @@
+
+.booking_card {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+    align-items: center;
+    border: 1px solid #ccc;
+    margin: 2rem 0;
+    padding: 1rem;
+  }
+  
+  .booking_card_column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+  }
+  .booking_card_column:first{
+    text-align: left;
+  }
+  
+  .booking_card_customer_name {
+    font-weight: bold;
+  }
+  
+  .booking_card_phone {
+    margin-top: 0.5rem;
+    color: #777;
+  }
+  
+  .booking_card_name {
+    font-weight: bold;
+  }
+  
+  .booking-card-row {
+    display: flex;
+    gap: 0.5rem;
+    margin-top: 0.5rem;
+  }
+  
+  .booking_card_departure_details,
+  .booking_card_arrival_details {
+    flex: 1;
+  }
+  
+  .booking_card_seats {
+    font-size: 0.9rem;
+  }
+  
+  .booking_card_total_fare {
+    font-size: 0.9rem;
+    margin-top: 0.5rem;
+  }
+  
+  .booking_card_cancel_button {
+    margin-top: 1rem;
+    background-color: #fd6970;
+    color: #fff;
+    border: none;
+    padding: 0.5rem;
+    cursor: pointer;
+  }
+  
+  .booking_card_cancel_button:hover {
+    background-color: #e74c55;
+  }
+  

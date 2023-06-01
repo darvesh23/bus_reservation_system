@@ -1,0 +1,38 @@
+.bookingList {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  .bookingListHeader {
+    display: flex;
+    align-items: center;
+    background-color: #f0f0f0;
+    padding: 8px;
+    font-weight: bold;
+  }
+  
+  .bookingListHeader span {
+    flex: 1;
+  }
+  
+  .bookingListItems {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .bookingListItem {
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    border-bottom: 1px solid #e0e0e0;
+  }
+  
+  .bookingListItem span {
+    flex: 1;
+  }
+  
+  .bookingListActions button {
+    margin-right: 8px;
+  }
+  

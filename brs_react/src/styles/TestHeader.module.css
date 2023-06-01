@@ -1,0 +1,53 @@
+.header {
+    background-color: var(--primary);
+    color: #fffcfc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+  }
+  
+  .header__logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .header__logo_img {
+    width: 40px;
+    height: 40px;
+    margin-right: 0.5rem;
+  }
+  
+  .header__title {
+    font-family: 'Rubik Vinyl', cursive;
+    font-size: 2.5rem;
+    cursor: pointer;
+  }
+
+  .header__title:hover{
+    color: #E1F4F3;
+    -webkit-transition: color 1000ms linear;
+    -ms-transition: color 1000ms linear;
+    transition: color 1000ms linear;
+  }
+  
+  .header__nav_list {
+    display: flex;
+    gap: 1rem;
+    list-style-type: none;
+  }
+  
+  .header__nav_item {
+    font-family: var(--header-footer-font);
+    font-size: 1.2rem;
+  }
+  
+  .header__nav_link {
+    color: #f9ffff;
+    text-decoration: none;
+  }
+  
+  .header__nav-link:hover {
+    color: #7ac5e6;
+  }
+  

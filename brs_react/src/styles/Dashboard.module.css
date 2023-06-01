@@ -1,0 +1,43 @@
+/* Dashboard.css */
+
+.dashboard_container {
+    /* Style for the container div of the dashboard component */
+    /* You can customize the style as per your design */
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    justify-content: center;
+    margin: 36px auto;
+  }
+  
+  .insight_component {
+    /* Style for the insight component in the first row */
+    /* You can customize the style as per your design */
+  }
+  
+  .row_container {
+    /* Style for the row container divs in the second and third rows */
+    /* You can customize the style as per your design */
+    display: flex;
+  }
+  
+  .col {
+    /* Style for the column divs in the second and third rows */
+    /* You can customize the style as per your design */
+    flex: 1;
+  }
+  
+  .card {
+    /* Style for the card-like divs */
+    /* You can customize the style as per your design */
+    height: 50px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+    margin: 8px;
+    cursor: pointer;
+    text-align: center;
+    font-size: larger;
+  }
+  

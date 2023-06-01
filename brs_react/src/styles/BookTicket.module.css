@@ -1,0 +1,46 @@
+
+.book_ticket_container {
+    margin: 2rem;
+    text-align: center;
+  }
+  
+  .book_ticket_form {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 2rem;
+    align-items: center;
+  }
+  
+  .book_ticket_form_input {
+    text-align: center;
+    padding: 5px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+  }
+  .book_ticket_form_input:focus{
+    outline: none;
+  }
+  
+  .book_ticket_form_button {
+    border-radius: 0;
+    background-color: #007bff;
+    max-height: 28px;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    padding: 5px 16px;
+  }
+  
+  .success_message,
+  .error_message {
+    margin-top: 10px;
+    color: #28a745; /* success message color */
+  }
+  
+  .error-message {
+    color: #dc3545; /* error message color */
+  }
+  
